@@ -1,0 +1,21 @@
+* {
+    padding: 0%;
+    margin: auto;
+    box-sizing: border-box;
+}
+button {
+    height: 80px;
+    width: 200px;
+    margin-top: 10px;
+    font-size: 3em;
+}
+button:hover {
+ cursor: pointer;
+    color: brown;
+    background-color: bisque;
+}
+header {
+    background-color: crimson;
+    height: 100px;
+    
+}
