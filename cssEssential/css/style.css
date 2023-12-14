@@ -1,3 +1,105 @@
+/* (color palette)
+Dark green    #3c8453
+Sandy beige   #bcaa96
+Dark gray     #222222
+Light gray    #d3d4d6
+Off-white     #f6f6f6
+*/
+
+/*GLOBAL STYLES
+------------------------------------------------*/
+
 body {
-    background-color: rgb(150, 202, 185);
+    background:#f6f6f6
 }
+/* links */
+a {
+    color: #3c8453;
+}
+a:hover {
+    color: #bcaa96;
+    text-decoration: none;
+}
+.btn {
+    background: #3c8453;
+    color: #f6f6f6;
+    text-decoration: none;
+}
+/*HOME
+------------------------------------------------*/
+
+.home {
+    background: url(../placeholder-images/bg-home-office-city.jpg) no-repeat;
+    background-size: cover;
+
+}
+.home .content-wrapper {
+    background: rgb(255 255 255 / 0.9);
+}
+
+
+
+/*RESUME
+------------------------------------------------*/
+
+/*Profile
+-------------------------------------------------*/
+
+/*Projects
+-------------------------------------------------*/
+
+/*work experience
+-------------------------------------------------*/
+
+/*education
+-------------------------------------------------*/
+
+
+
+/*FOOTER
+------------------------------------------------*/
+footer {
+    background: #222;
+    color: #d3d4d6;
+}
+footer a {
+    color: #bcaa96;
+}
+footer a:hover {
+   color: #3c8453;
+   text-decoration: none;
+}
+
+
+
+
+
+/*RANDOM NOTES
+-------------------------------------------------*/
+/* this selector applies to Everything
+* {
+    color: seagreen;
+}*/
+
+/* this targets specific ID's
+#myname {
+background: yellow;
+}*/
+
+
+/*this targets any CLASS
+.class {
+    background: green;
+}*/
+
+/*selector lists
+h1, h2, h3 {
+    font-size: large;
+}
+*/
+/*
+:first-of-type pseudo classes
+::first-letter pseudo elements
+
+!important takes presedence 
+*/
