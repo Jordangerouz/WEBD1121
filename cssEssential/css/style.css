@@ -47,10 +47,16 @@ a:hover {
 .home {
     background: url(../placeholder-images/bg-home-office-city.jpg) no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 
 }
 .home .content-wrapper {
-    background: rgb(255 255 255 / 0.9);
+    flex: 1 0 auto;
+}
+.content-bg {
+     background: rgb(255 255 255 / 0.9);
+     padding: 30px;
 }
 
 
@@ -94,7 +100,12 @@ a:hover {
 
 /*work experience
 -------------------------------------------------*/
+.work-item {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    column-gap: 20px;
 
+}
 /*education
 -------------------------------------------------*/
 
@@ -105,6 +116,9 @@ a:hover {
 footer {
     background: #222;
     color: #d3d4d6;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
 }
 footer a {
     color: #bcaa96;
@@ -121,10 +135,14 @@ footer a:hover {
 
 .socials li {
     display: inline-block;
+    margin-left: 10px;
 }
 
 .socials img {
     width: 32px;
+}
+.socials img:hover {
+    opacity: 0.5;
 }
 
 
