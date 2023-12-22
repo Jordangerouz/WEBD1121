@@ -4,6 +4,11 @@ Sandy beige   #bcaa96
 Dark gray     #222222
 Light gray    #d3d4d6
 Off-white     #f6f6f6
+
+(fonts)
+
+font-family: 'Caveat', cursive;
+font-family: 'Open Sans', sans-serif;
 */
 
 /*GLOBAL STYLES
@@ -21,6 +26,10 @@ html, body {
 body {
     background:#f6f6f6;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Caveat', cursive;
 }
 /* links */
 a {
